@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Elvin Cruz - Woodworker, Videographer, Photographer. Portfolio and contact information.">
-    <title>Elvin Cruz | Woodwork, Videography, Photography</title>
+    <title>Elvin Cruz | Woodwork & Photography Portfolio</title>
     <link rel="stylesheet" href="/static/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -16,92 +16,93 @@
                 <p class="tagline">Specializing in Woodwork, Videography, and Photography</p>
             </header>
 
-            <main class="container">
-                <!-- Woodwork Section -->
-                <section class="portfolio-section woodwork" aria-labelledby="woodwork-title">
+            <main class="portfolio-container">
+                <!-- LEFT SIDE: Woodwork -->
+                <section class="portfolio-column woodwork" aria-labelledby="woodwork-title">
                     <h2 id="woodwork-title" class="section-title">Woodwork</h2>
                     <div class="portfolio-grid">
-                        <div class="portfolio-item" tabindex="0">
-                            <label for="woodUpload1" class="upload-area" role="button" aria-label="Upload woodwork image 1">
+                        <div class="portfolio-item">
+                            <label for="woodUpload1" class="upload-area">
                                 <i class="fas fa-plus"></i>
-                                <span>Upload Woodwork 1</span>
+                                <span>Woodwork 1</span>
                             </label>
                             <input type="file" id="woodUpload1" accept="image/*" hidden>
-                            <a href="#" target="_blank" id="woodLink1" class="portfolio-link" aria-label="View woodwork image 1"></a>
-                            <img id="woodPreview1" class="preview-image" alt="Woodwork preview 1" hidden>
+                            <a href="#" target="_blank" id="woodLink1" class="portfolio-link"></a>
+                            <img id="woodPreview1" class="preview-image" alt="Woodwork 1" hidden>
                         </div>
-                        <div class="portfolio-item" tabindex="0">
-                            <label for="woodUpload2" class="upload-area" role="button" aria-label="Upload woodwork image 2">
+                        <div class="portfolio-item">
+                            <label for="woodUpload2" class="upload-area">
                                 <i class="fas fa-plus"></i>
-                                <span>Upload Woodwork 2</span>
+                                <span>Woodwork 2</span>
                             </label>
                             <input type="file" id="woodUpload2" accept="image/*" hidden>
-                            <a href="#" target="_blank" id="woodLink2" class="portfolio-link" aria-label="View woodwork image 2"></a>
-                            <img id="woodPreview2" class="preview-image" alt="Woodwork preview 2" hidden>
+                            <a href="#" target="_blank" id="woodLink2" class="portfolio-link"></a>
+                            <img id="woodPreview2" class="preview-image" alt="Woodwork 2" hidden>
                         </div>
-                        <div class="portfolio-item" tabindex="0">
-                            <label for="woodUpload3" class="upload-area" role="button" aria-label="Upload woodwork image 3">
+                        <div class="portfolio-item">
+                            <label for="woodUpload3" class="upload-area">
                                 <i class="fas fa-plus"></i>
-                                <span>Upload Woodwork 3</span>
+                                <span>Woodwork 3</span>
                             </label>
                             <input type="file" id="woodUpload3" accept="image/*" hidden>
-                            <a href="#" target="_blank" id="woodLink3" class="portfolio-link" aria-label="View woodwork image 3"></a>
-                            <img id="woodPreview3" class="preview-image" alt="Woodwork preview 3" hidden>
+                            <a href="#" target="_blank" id="woodLink3" class="portfolio-link"></a>
+                            <img id="woodPreview3" class="preview-image" alt="Woodwork 3" hidden>
                         </div>
                     </div>
                 </section>
 
-                <!-- Photography Section -->
-                <section class="portfolio-section photography" aria-labelledby="photography-title">
-                    <h2 id="photography-title" class="section-title">Photography</h2>
+                <!-- RIGHT SIDE: Photography/Videography -->
+                <section class="portfolio-column photography" aria-labelledby="photo-title">
+                    <h2 id="photo-title" class="section-title">Photography/Videography</h2>
                     <div class="portfolio-grid">
-                        <div class="portfolio-item" tabindex="0">
-                            <label for="photoUpload1" class="upload-area" role="button" aria-label="Upload photography image 1">
+                        <div class="portfolio-item">
+                            <label for="photoUpload1" class="upload-area">
                                 <i class="fas fa-plus"></i>
-                                <span>Upload Photo 1</span>
+                                <span>Photo 1</span>
                             </label>
-                            <input type="file" id="photoUpload1" accept="image/*" hidden>
-                            <a href="#" target="_blank" id="photoLink1" class="portfolio-link" aria-label="View photography image 1"></a>
-                            <img id="photoPreview1" class="preview-image" alt="Photography preview 1" hidden>
+                            <input type="file" id="photoUpload1" accept="image/*,video/*" hidden>
+                            <a href="#" target="_blank" id="photoLink1" class="portfolio-link"></a>
+                            <img id="photoPreview1" class="preview-image" alt="Photo 1" hidden>
                         </div>
-                        <div class="portfolio-item" tabindex="0">
-                            <label for="photoUpload2" class="upload-area" role="button" aria-label="Upload photography image 2">
+                        <div class="portfolio-item">
+                            <label for="photoUpload2" class="upload-area">
                                 <i class="fas fa-plus"></i>
-                                <span>Upload Photo 2</span>
+                                <span>Photo 2</span>
                             </label>
-                            <input type="file" id="photoUpload2" accept="image/*" hidden>
-                            <a href="#" target="_blank" id="photoLink2" class="portfolio-link" aria-label="View photography image 2"></a>
-                            <img id="photoPreview2" class="preview-image" alt="Photography preview 2" hidden>
+                            <input type="file" id="photoUpload2" accept="image/*,video/*" hidden>
+                            <a href="#" target="_blank" id="photoLink2" class="portfolio-link"></a>
+                            <img id="photoPreview2" class="preview-image" alt="Photo 2" hidden>
                         </div>
-                        <div class="portfolio-item" tabindex="0">
-                            <label for="photoUpload3" class="upload-area" role="button" aria-label="Upload photography image 3">
+                        <div class="portfolio-item">
+                            <label for="photoUpload3" class="upload-area">
                                 <i class="fas fa-plus"></i>
-                                <span>Upload Photo 3</span>
+                                <span>Photo 3</span>
                             </label>
-                            <input type="file" id="photoUpload3" accept="image/*" hidden>
-                            <a href="#" target="_blank" id="photoLink3" class="portfolio-link" aria-label="View photography image 3"></a>
-                            <img id="photoPreview3" class="preview-image" alt="Photography preview 3" hidden>
+                            <input type="file" id="photoUpload3" accept="image/*,video/*" hidden>
+                            <a href="#" target="_blank" id="photoLink3" class="portfolio-link"></a>
+                            <img id="photoPreview3" class="preview-image" alt="Photo 3" hidden>
                         </div>
                     </div>
                 </section>
             </main>
 
-            <!-- Social Media -->
-            <section class="social-media" aria-label="Social media links">
-                <a href="https://instagram.com/elvincruz_21/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.tiktok.com/@elvincruz_21" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-                    <i class="fab fa-tiktok"></i>
-                </a>
-                <a href="https://facebook.com/elvincruz428" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </section>
-
-            <footer>
-                <p class="contact-info">For more information, click any link above to reach me directly.</p>
-            </footer>
+            <!-- Social Media & Footer -->
+            <div class="bottom-section">
+                <section class="social-media">
+                    <a href="https://instagram.com/elvincruz_21/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@elvincruz_21" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://facebook.com/elvincruz428" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </section>
+                <footer>
+                    <p class="contact-info">For more information, click any link above to reach me directly.</p>
+                </footer>
+            </div>
         </div>
     </div>
 
