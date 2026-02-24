@@ -23,11 +23,15 @@ header h1 {
 }
 
 .name {
-    /* Add name styling if needed */
+    margin: 0;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
 }
 
 .introduction {
     margin: 0;
     font-size: 3rem;
     color: black;
+    text-align: center;
 }
