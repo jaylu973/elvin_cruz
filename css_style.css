@@ -8,8 +8,10 @@ body {
 }
 
 .background {
-    background: white; /* white background */
+    background: white;
     padding: 2rem;
+    max-width: 800px; /* width to center */
+    margin: 0 auto; 
 }
 
 .name {
