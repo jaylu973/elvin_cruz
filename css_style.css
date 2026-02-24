@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     min-height: 100vh;
     font-family: Cursive, Times New Roman;
@@ -28,6 +28,6 @@ header h1 {
 
 .tagline {
     margin: 0;
-    font-size: 1.2rem;
-    color: #666;
+    font-size: 3rem;
+    color: white;
 }
