@@ -22,11 +22,12 @@ body {
     color: black;
     text-align: center;
     font-family: Cursive;
+    font-weight: bold;
 }
 
 .introduction {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     text-align: center;
     font-family: Times New Roman;
