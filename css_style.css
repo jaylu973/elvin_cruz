@@ -3,13 +3,13 @@ body {
     padding: 0;
     display: flex;
     justify-content: top;
-    align-items: top;
+    align-items: flex-start;
     min-height: 100vh;
     font-family: Cursive, Times New Roman;
 }
 
 .wrap {
-    text-align: top;
+    text-align: center;
 }
 
 .background {
