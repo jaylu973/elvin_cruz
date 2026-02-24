@@ -5,15 +5,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
+    font-family: Cursive, Times New Roman;
 }
 
 .wrap {
-    text-align: center;
+    text-align: top;
 }
 
 .background {
-    background: #f0f0f0; /* Add your background styling */
+    background: white; /* white background */
     padding: 2rem;
 }
 
