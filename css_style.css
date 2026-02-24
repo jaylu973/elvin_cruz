@@ -26,8 +26,8 @@ header h1 {
     /* Add name styling if needed */
 }
 
-.tagline {
+.introduction {
     margin: 0;
     font-size: 3rem;
-    color: white;
+    color: black;
 }
