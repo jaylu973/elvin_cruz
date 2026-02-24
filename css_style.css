@@ -5,7 +5,6 @@ body {
     justify-content: top;
     align-items: flex-start;
     min-height: 100vh;
-    font-family: Cursive, Times New Roman;
 }
 
 .wrap {
@@ -27,6 +26,7 @@ header h1 {
     font-size: 3rem;
     color: black;
     text-align: center;
+    font-family: Cursive;
 }
 
 .introduction {
@@ -34,4 +34,5 @@ header h1 {
     font-size: 3rem;
     color: black;
     text-align: center;
+    font-family: Times New Roman;
 }
