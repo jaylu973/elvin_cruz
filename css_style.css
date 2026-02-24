@@ -7,10 +7,6 @@ body {
     min-height: 100vh;
 }
 
-.wrap {
-    text-align: center;
-}
-
 .background {
     background: white; /* white background */
     padding: 2rem;
