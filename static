@@ -1,1 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
 
+.wrap {
+    text-align: center;
+}
+
+.background {
+    background: #f0f0f0; /* Add your background styling */
+    padding: 2rem;
+}
+
+header h1 {
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+}
+
+.name {
+    /* Add name styling if needed */
+}
+
+.tagline {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #666;
+}
